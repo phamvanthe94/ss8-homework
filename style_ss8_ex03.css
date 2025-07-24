@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer-box {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.box {
+  width: calc(50% - 10px);
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    width: calc(100% - 10px);
+  }
+}
